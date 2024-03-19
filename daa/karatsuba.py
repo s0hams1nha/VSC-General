@@ -11,7 +11,7 @@ def k(x, y):
         ac=k(a, c)
         bd=k(b, d)
         ad_plus_bc = k(a+b, c+d) - ac - bd
-        return ac*(10**(2*half))+(ad_plus_bc*(10*half))+bd
+        return ac*(10**(2*half))+(ad_plus_bc*(10**half))+bd
 x=int(input())
 y=int(input())
 print(k(x, y))

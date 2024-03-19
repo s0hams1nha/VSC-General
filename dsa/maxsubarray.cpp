@@ -2,7 +2,7 @@
 using namespace std;
 
 int maxsubarray(int x[], int size){
-  int maxsum=-INFINITY;
+  int maxsum = -999;
   int continoussum=0;
   for(int i=0; i<size; i++){
     continoussum+=x[i];
